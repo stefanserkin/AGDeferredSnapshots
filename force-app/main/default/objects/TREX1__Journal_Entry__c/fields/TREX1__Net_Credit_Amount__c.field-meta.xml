@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TREX1__Net_Credit_Amount__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Returns the net amount of Credits - Debits into a single field for reporting on net credit amounts.</description>
+    <externalId>false</externalId>
+    <formula>TREX1__Credit__c - TREX1__Debit__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Returns the net amount of Credits - Debits into a single field for reporting on net credit amounts.</inlineHelpText>
+    <label>Net Credit Amount</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>
